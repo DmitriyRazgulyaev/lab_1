@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	return
+	Greating("Sasha")
 }
 
 func Greating(name string) {
