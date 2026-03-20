@@ -1,3 +1,11 @@
+package main
+
+import "fmt"
+
 func main() {
-  return
+	return
+}
+
+func Greating(name string) {
+	fmt.Println("Hello" + name + "!")
 }
