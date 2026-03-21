@@ -2,11 +2,14 @@ package main
 
 import "fmt"
 
-
 func main() {
-  return
+	Greating("Sasha")
+}
+
+func Greating(name string) {
+	fmt.Println("Hello" + name + "!")
 }
 
 func SayGoodbye(name string) {
-  fmt.Println("Goodbye" + name + "!")
+	fmt.Println("Goodbye" + name + "!")
 }
